@@ -107,6 +107,10 @@ a.button {
   font-size: 8px;
   color: #a8bee3;
 }
+.main .slick-arrow.slick-prev:hover,
+.main .slick-arrow.slick-next:hover {
+  @apply bg-white;
+}
 .main .slick-dots li.slick-active button:before {
   color: #0855cb;
   opacity: 1;
