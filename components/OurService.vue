@@ -4,9 +4,7 @@
       <h3 class="section-title text-center">ฟีเจอร์เด่น</h3>
       <br />
       <p class="text-center w-90 mx-auto section-subtitle">
-        s simply dummy text of the printing and typesetting industry. Lorem
-        Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a
+        เพราะเราช่วยเปลี่ยนไอเดียการจัดงานแต่งของคุณให้เป็นความจริงได้ด้วยเครื่องมือที่ครบครัน
       </p>
       <br />
       <div class="slider large-screen">
@@ -44,7 +42,7 @@
         >
           <div v-for="data in serviceData" :key="data.id">
             <div class="card">
-            <!-- <div class="rounded-2xl p-7 box-slider"> -->
+              <!-- <div class="rounded-2xl p-7 box-slider"> -->
               <div class="over-square">
                 <div class="square"></div>
                 <img class="absolute top-16" :src="data.icon" alt="" />
@@ -74,21 +72,21 @@ export default {
       serviceData: [
         {
           id: 1,
-          topic: 'Initial Consolution',
+          topic: 'ตั้งค่าฟอร์มลงทะเบียน',
           content:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in vestibulum',
           icon: require('../static/image/edit-icon.png'),
         },
         {
           id: 2,
-          topic: 'Wedding Location',
+          topic: 'ปรับแต่งข้อมูลบน LINE',
           content:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in vestibulum',
           icon: require('../static/image/wand-icon.png'),
         },
         {
           id: 3,
-          topic: 'Wedding Management',
+          topic: 'ข้อมูลผู้ลงทะเบียน',
           content:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in vestibulum',
           icon: require('../static/image/users-icon.png'),
@@ -129,7 +127,7 @@ export default {
   @apply mt-12;
 }
 .over-square {
-  @apply flex justify-center pt-8 pb-16; 
+  @apply flex justify-center pt-8 pb-16;
 }
 .card {
   background-color: #f4f9fd;

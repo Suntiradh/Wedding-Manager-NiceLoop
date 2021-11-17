@@ -71,6 +71,7 @@ a.button {
   @apply text-base leading-relaxed font-normal;
 }
 .container-section {
+  max-width: 1084px;
   @apply mx-auto w-4/5;
 }
 .section-eng {
