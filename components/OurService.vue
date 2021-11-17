@@ -133,7 +133,7 @@ export default {
 }
 .card {
   background-color: #f4f9fd;
-  @apply border-none rounded-2xl m-6 p-3 h-64;
+  @apply border-none rounded-2xl p-3 h-64;
 }
 .over-square .square {
   background-color: #0855cb;
@@ -185,10 +185,10 @@ export default {
     @apply p-6 mt-6;
   }*/
   #our-service .slick-prev {
-    left: -4px;
+    left: -13px;
   }
   #our-service .slick-next {
-    right: -4px;
+    right: -13px;
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="our-platform">
-    <div class="container-section flex my-auto">
-      <div class="w-1/2 mr-12 mt-6 text-our-platform">
+    <div class="container-section flex">
+      <div class="text-our-platform">
         <h1 class="section-title -mx-px text-white">รู้จักแพลตฟอร์มของเรา</h1>
         <br />
         <p class="text-white">
@@ -29,6 +29,9 @@
 .img-our-platform {
   margin-bottom: -1px;
 }
+.text-our-platform {
+  @apply w-1/2 my-auto pb-16;
+}
 @media (max-width: 768px) {
   .our-platform {
     @apply py-16;
@@ -46,5 +49,6 @@
   .img-our-platform {
     @apply mx-auto py-4;
   }
+
 }
 </style>
