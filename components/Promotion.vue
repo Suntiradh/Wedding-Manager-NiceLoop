@@ -8,7 +8,7 @@
         <h2 class="my-auto section-eng font-bold text-blue">
           Promotion is now 25% Discount
         </h2>
-        <button>ใช้ส่วนลดนี้</button>
+        <button class="btn">ใช้ส่วนลดนี้</button>
       </div>
     </div>
   </div>
@@ -27,8 +27,10 @@
 .promotion .box-promotion button {
   color: #0855cb;
   border-color: #0855cb;
-  
   @apply my-auto bg-white font-semibold border-solid border;
+}
+.btn {
+  color: #0855cb !important;
 }
 /* Responsive */
 @media (max-width: 768px) {
