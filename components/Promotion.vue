@@ -29,7 +29,7 @@
   border-color: #0855cb;
   @apply my-auto bg-white font-semibold border-solid border;
 }
-.btn {
+.promotion .btn {
   color: #0855cb !important;
 }
 /* Responsive */
