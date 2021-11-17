@@ -49,9 +49,9 @@
                 <slot name="header"
                   ><h5>Premium Plan</h5></slot
                 >
-                <button type="button" class="btn-close" @click="closeModal">
+                <div class="btn-close" @click="closeModal">
                   x
-                </button>
+                </div>
               </header>
 
               <section class="modal-body">
@@ -296,7 +296,6 @@ export default {
   cursor: pointer;
   font-weight: bold;
   color: #0855CB !important;
-  background-color: transparent !important;
 }
 .btn-green {
   color: black;

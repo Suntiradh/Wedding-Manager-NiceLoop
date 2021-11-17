@@ -18,16 +18,16 @@
 export default {
   head() {
     return {
-      title: "Wedding Management",
+      title: 'Wedding Management',
       meta: [
         {
-          hid: "description",
-          name:  "description",
-          content: "All of wedding process manager you can find"
-        }
-      ]
-    } 
-  }
+          hid: 'description',
+          name: 'description',
+          content: 'All of wedding process manager you can find',
+        },
+      ],
+    }
+  },
 }
 </script>
 
@@ -101,13 +101,13 @@ a.button {
   @apply absolute;
 }
 .slick-dots {
-  @apply -bottom-8
+  @apply -bottom-8;
 }
 .slick-dots li button:before {
   font-size: 8px;
   color: #a8bee3;
 }
-.slick-dots li.slick-active button:before {
+.main .slick-dots li.slick-active button:before {
   color: #0855cb;
   opacity: 1;
 }

@@ -145,7 +145,7 @@ export default {
     @apply block;
   }
   .message {
-    @apply w-1/2 ml-0;
+    @apply w-full ml-0;
   }
   .input .w-1\/2,
   .main .contact-us input,
