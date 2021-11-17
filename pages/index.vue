@@ -58,7 +58,8 @@ body {
 .main button,
 a.button {
   background-color: #0855cb;
-  @apply border-none rounded-3xl text-white py-2 px-7;
+  color: white !important;
+  @apply border-none rounded-3xl py-2 px-7;
 }
 .section-title {
   @apply text-4xl font-semibold;

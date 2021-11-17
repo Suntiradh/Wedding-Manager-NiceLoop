@@ -15,7 +15,7 @@
         <nuxt-link :to="{ path: '/', hash: 'pricing' }">แพ๊กเกจ</nuxt-link>
         <nuxt-link
           :to="{ path: '/', hash: 'get-start' }"
-          class="button text-white"
+          class="button"
           >เริ่มต้นใช้งาน</nuxt-link
         >
       </div>
