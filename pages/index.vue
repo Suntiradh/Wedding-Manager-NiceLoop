@@ -103,7 +103,7 @@ a.button {
 .slick-dots {
   @apply -bottom-8;
 }
-.slick-dots li button:before {
+.main .slick-dots li button:before {
   font-size: 8px;
   color: #a8bee3;
 }
